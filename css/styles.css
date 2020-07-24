@@ -12,6 +12,9 @@ body{
 .Site-content{
   flex: 1;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -28,4 +31,16 @@ body{
 .nav-item{
 
   margin: 5px;
+}
+
+
+.icons{
+  color: white;
+  padding: 2px;
+}
+
+.about-us-heading{
+  font-size: 3.5rem !important;
+  text-decoration: underline;
+
 }
