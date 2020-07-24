@@ -1,0 +1,31 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content{
+  flex: 1;
+}
+
+
+
+
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  padding: 0 2px;
+  margin: 2px;
+}
+.navbar{
+  padding: 1px;
+}
+.nav-item{
+
+  margin: 5px;
+}
