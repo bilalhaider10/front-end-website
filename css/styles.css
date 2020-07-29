@@ -31,9 +31,6 @@ html {
   padding: 5px;
 }
 
-nav .nav-item:hover{
-  background-color: green;
-}
 
 .icons{
   color: white;
