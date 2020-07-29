@@ -11,36 +11,73 @@ body{
 
 .Site-content{
   flex: 1;
+
 }
 html {
   scroll-behavior: smooth;
 }
 
-
-
-
 .navbar-brand{
   font-family: 'Sacramento', cursive;
   font-size: 2.5rem;
   padding: 0 2px;
-  margin: 2px;
+
 }
 .navbar{
   padding: 1px;
 }
 .nav-item{
 
-  margin: 5px;
+  padding: 5px;
 }
 
+nav .nav-item:hover{
+  background-color: green;
+}
 
 .icons{
   color: white;
   padding: 2px;
 }
 
-.about-us-heading{
+.heading{
   font-size: 3.5rem !important;
-  text-decoration: underline;
 
+
+}
+
+.para-services{
+  text-align: justify;
+}
+
+.img-services{
+  border-radius: 50%
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231b1c25' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    font-size: 130% !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231b1c25' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+
+#services h2{
+  font-family: 'Playfair Display', serif;
+}
+
+
+@media (min-width:767px){
+.btn-contact {
+
+
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    width: 20%;
+    margin-left: 60%;
+    border-radius: 2%;
+}
 }
