@@ -71,10 +71,29 @@ html {
 
 
 }
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.4) !important;
-    width: 20%;
-    margin-left: 60%;
-    border-radius: 2%;
+
+.heading-carousel{
+  font-family: "Montserrat";
+
+    width: 60%;
+    margin: 50px auto;
+    font-size: 3.5rem;
+    font-weight: bold;
+
 }
+
+.see-more{
+  background-color: #621000;
+}
+
+
+.press-image {
+  margin: 10px 10px 50px;
+  width: 15%;
+  padding: 25px;
+}
+
+
+#press {
+  text-align: center; 
 }
